@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YHBaseTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YHBaseTest.'
+  s.summary          = '这是一个测试pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/AugustCloud/YHBaseTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AugustCloud' => 'maoyunhe@zhaojiafang.com' }
+  s.author           = { 'AugustCloud' => 'myh15838171501@163.com' }
   s.source           = { :git => 'https://github.com/AugustCloud/YHBaseTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

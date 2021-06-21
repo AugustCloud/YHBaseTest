@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		69D21EEF2680860200BC3508 /* YHTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D21EEE2680860200BC3508 /* YHTestController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B29DEB1EFE77BF9DDD572971 /* Pods_YHBaseTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD720E625AD6F0C41D2CBF4C /* Pods_YHBaseTest_Tests.framework */; };
@@ -57,6 +58,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		69D21EED2680860200BC3508 /* YHTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YHTestController.h; path = ../../YHBaseTest/Classes/YHTestController.h; sourceTree = "<group>"; };
+		69D21EEE2680860200BC3508 /* YHTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YHTestController.m; path = ../../YHBaseTest/Classes/YHTestController.m; sourceTree = "<group>"; };
 		6E68C417E149420E45756D20 /* Pods_YHBaseTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHBaseTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CAD22050B447A19D25FBBE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				69D21EED2680860200BC3508 /* YHTestController.h */,
+				69D21EEE2680860200BC3508 /* YHTestController.m */,
 			);
 			name = "Example for YHBaseTest";
 			path = YHBaseTest;
@@ -366,6 +371,7 @@
 			files = (
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
+				69D21EEF2680860200BC3508 /* YHTestController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
